@@ -1,0 +1,16 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+        Una variable es una como caja or carpeta en la memoria de la computadora. Esta variable la creo (o reservo) ya que luego usare ese espacio para guardar informacion o datos para luego hacer algo con ello.
+
+	* Strings
+        Strings son basicamente informacion en forma de texto. Es decir "Hola" es un string porque es una palabra, pero 1 no es un string, es un numero. ya que es un numero ("1" si seria un string ya que esta entre comillas dobles, lo que la computadora interpreta como un string). Entonce strings son valores que solo se interpretan como caracteres.
+	
+    * Funciones (argumentos, `return`)
+        Una funcion es una seria de pasos o secuencias especificamente diseñada para realizar una acccion particular. La idea de una funcion es que uno le introduce alguna informacion o data (los argumentos) y nos devuelve algo (return)
+	
+    * Declaraciones `if`
+        Las declaraciones "if" son operadores o acciones que hacen un trabajo espefico. Los "if" equivalen al SI condicional, por lo que una declaracion "if" va a realizar una accion siempre y cuando una condicion se cumpla, o por el contrario cuando esa condicion no se cumpla.
+	
+    * Valores booleanos (`true`, `false`)
+        Los valores booleanos son valores logicos binarios, es decir que solo tiene dos formas posibles, True or False
