@@ -1,0 +1,10 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+    Un 'for' es una instruccion que se le da a la pc para que repita una accion u operacion tantas veces como sea necesario para lograr algo en particular.
+
+* `&&`, `||`, `!`
+    Estos son "operadores logicos". Esto quiere decir que estos caracteres representan operaciones basicas. Asi como "+" es un caracter que representa una suma, 
+    '&&' significa "and"(Es castallaño "y") y se usa para agregar un elemento mas en una funcion u operacion. `||` significa "or"(Es castallaño "o") y se usa para
+    elegir entre un elemento u otro. Finalmente, `!` significa "NOT"(Es castallaño "no") y se usa para negar un valor.
+
