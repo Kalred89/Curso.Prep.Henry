@@ -1,0 +1,35 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+        Asi como los arrays, los objectos son elementos contenedores. Pero, mientras que los arrays puede contener muchos elementos, los cuales tienen que estar relacionados entre si 
+        (como puede ser una lista de frutas), los objectos son elementos contenedores que pueden contener muchos elementos diferentes (Como por ejemplo, la informacion de una persona,
+        nombre, apellido, edad, ciudad, etc. Todos elementos diferentes entre si.)
+
+	* Propiedades
+        Ya que los objectos pueden contener muchos elementos diferentes, a la hora de acceder a ellos o utilizarlos, estos se vuelven "proiedades" del objecto, es decir, una
+        caracteristica de ellos que podemos usar para realizar alguna accion. 
+
+	* Métodos
+        Los metodos son funciones que se guardan dentro de objectos. 
+
+	* Bucle `for…in`
+        Debido a que los objectos no contienen un indice numero como los arrays (ej: array[0] = hace referencia al primer elemento del array), no podriamos recorrer cada elemento
+        de un objecto con la misma facilidad que lo hacemos un array. Para eso usamos el bucle 'for...in'. 
+
+        for (let clave in usuario){
+        console.log(clave);
+        console.log(usuario[clave]);
+        }
+
+        // username
+        // 'juan.perez'
+        // password
+        // 'loremipsumpwd123'
+        // lovesJavascript
+        // true
+        // favoriteNumber
+        // 42
+
+	* Notación de puntos vs notación de corchetes
+        La notación de puntos o notación de corchetes son formas de llamar a los elementos o metodos dentro de un objecto. Se suele utilizan los puntos para llamar metodos dentro
+        de un objecto y corchetes para llamar a variables dentro de un objecto.
