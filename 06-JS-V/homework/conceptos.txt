@@ -1,0 +1,20 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+    Debido a que todas las propiedades y funciones que creemos o declaremos ocupan espacio en la memoria, a la hora de crear objectos y constructores de objectos, estas
+    propiedades y metodos se irian multiplicando. Sin embargo, podemos creear metodos y propiedades solo una vez por medio de la propiedad "prototype". Al usarla, todos los
+    objectos de una clase compartiran la misma variable o metodo, para de esta forma solo crearlas una vez y no consumir la memoria de la pc. En general, prototype se 
+    suele utizar para crear funciones mas que propiedades dentro de las clases.
+
+* _Constructors_ (de Clases)
+    Cuando creamos un objecto es js, este objecto contiene un conjunto de propiedad. Supongamos el objecto ALUMNO. Este objecto podria tener las siguientes propiedades:
+    -Nombre
+    -Apellido
+    -Edad
+    -Curso
+    Ahora bien, Supongamos que yo quiero tener una lista de alumnos con todas estas propiedades. No seria conveniente creer un objecto nuevo de manera manual por cada
+    nuevo alumno. Para esto podemos reutilizar nuestro objecto ALUMNO que creamos inicialmente y utilizar sus propiedades como la base para todos los nuevos alumnos. 
+    En algun sentido seria como tener una planilla de inscripcion de los alumnos con la informacion a llenar. En vez de hace una nueva planilla cada vez, simplemente
+    imprimimos la misma en blanco para que el nuevo alumno la complete. De la misma manera, por medio de la instancia "new", podemos tomar la plantilla base ALUMNO, 
+    y creer un nuevo objecto con esas mismas propiedades (nombre, Apellido, etc) ==> new.alumno (agregar el contenido de las propiedades). A este le llamamos constructores
+    de clase, ya que el object ALUMNO se vuelve la base de todos los alumnos a inscribir.
