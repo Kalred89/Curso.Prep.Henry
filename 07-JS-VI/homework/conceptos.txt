@@ -1,0 +1,7 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Funciones Callback
+    Las funciones "Callback" (en castellano "llamar a algo anterior"), son funciones que reciben como elementos o argumentos otras funciones. De esta manera podemos
+    realizar acciones de manera mas rapida y eficiente, que no tendriamos que crear variables que reciban el contenido de una funcion, para luego introducir estas
+    en una nueva funcion, sino que simplemente introduciriamos una funcion dentro de otra.
+    
