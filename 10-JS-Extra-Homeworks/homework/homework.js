@@ -86,7 +86,7 @@ function capToFront(s) {
     //     }
     // }
     // string = mayus.join('') + array.join('');
-    // } 
+  } 
 
 
 function asAmirror(str) {
@@ -96,7 +96,26 @@ function asAmirror(str) {
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
 
-  
+  let arrayInvertir = [];
+  let nuevaFrase = "";
+
+  for (let i = 0; i < str.length; i++){
+
+    if ( i !== str.length - 1){  
+          if( str[i] !== " "){
+              arrayInvertir.push(str[i]);
+          }else{
+              arrayInvertir.reverse();
+              nuevaFrase = nuevaFrase + arrayInvertir.join('') + ' ';
+              arrayInvertir = [];
+          }
+      }else{
+          arrayInvertir.push(str[i]);
+          arrayInvertir.reverse();
+          nuevaFrase = nuevaFrase + arrayInvertir.join('');
+      }  
+  }
+  return nuevaFrase;
 } 
 
 
