@@ -10,6 +10,21 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+
+ let arrayMatriz= [];
+
+
+ for (let clave in objeto){
+    //let array = [clave, objeto[clave]];
+    //arrayMatriz.push(array);
+
+    // otra opcion
+    arrayMatriz.push( [clave, objeto[clave]] );
+  };
+  return arrayMatriz;
+
+  //return Object.entries(objeto);
+  
 }
 
 
@@ -18,6 +33,24 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+
+  let objetoString = {};
+  
+  for (let i = 0; i < string.length; i++ ){
+
+      if(string[i] in objetoString){
+        objetoString[string[i]]++;
+      }else{
+        objetoString[string[i]]= 1;
+      }
+
+      // if(objetoString.hasOwnProperty(string[i]) == true){
+      //   objetoString[string[i]]++;
+      // }else{
+      //   objetoString[string[i]]= 1;
+      // }
+  }
+    return objetoString;
 }
 
 
@@ -26,7 +59,34 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
-}
+
+  let array = s.split('');
+  let arrayMayusculas = [];
+  let arrayMinusculas = [];
+    
+  for (let i= 0; i < array.length; i++){
+    
+    if ( array[i] === array[i].toUpperCase() ){
+      arrayMayusculas.push(array[i]);
+    }else{
+      arrayMinusculas.push(array[i]);
+    }
+  };
+ 
+  s = arrayMayusculas.join('') + arrayMinusculas.join('');
+    
+  return s;
+
+    // Codigo de David
+    //let mayus = [];
+    // for (let i=array.length-1; i > 0 ;i--){
+    //     if ( array[i] === array[i].toUpperCase() ){
+    //         mayus.unshift(array[i]);
+    //         array.splice(i, 1);
+    //     }
+    // }
+    // string = mayus.join('') + array.join('');
+    // } 
 
 
 function asAmirror(str) {
@@ -35,6 +95,8 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+
+  
 } 
 
 
